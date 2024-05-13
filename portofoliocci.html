@@ -1,0 +1,41 @@
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="portofoliocci.css">
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <h1>Open Recruitment</h1>
+    <h2>Central Computer Improvement</h2>
+    <form action='https://www.cciunitel.com/'>
+      <div class="all">
+      <fieldset>
+        <label for="full-name">Full Name: <input id="full-name" name="full-name" type="text" required /></label>
+        <label for="nim">NIM: <input id="nim" name="nim" type="text" required /></label>
+        <label for="email">Your SSO Email: <input id="email" name="email" type="email" required /></label>
+        <label for="new-password">Create a New Password: <input id="new-password" name="new-password" type="password" required /></label>
+      </fieldset>
+      
+      
+      <fieldset>
+        <label for="profile-picture">Upload a profile picture: <input id="profile-picture" type="file" name="file" /></label>
+        <label for="angkatan">Angkatan: <input id="angkatan" type="number" name="angkatan" min="2020" max="2022" /></label>
+        <label for="referrer">Select Division:
+          <select id="referrer" name="referrer">
+            <option value="">(select one)</option>
+            <option value="1">Design</option>
+            <option value="2">Data Research</option>
+            <option value="3">Network</option>
+            <option value="4">Web Development</option>
+            <option value="5">Games and Gadget</option>
+            <option value="6">Media Management</option>
+          </select>
+        </label>
+        <label for="bio">Alasan:
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Saya tertarik pada divisi Web Development karena....."></textarea>
+        </label>
+      </fieldset>
+        </div>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
