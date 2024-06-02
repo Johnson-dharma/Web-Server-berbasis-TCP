@@ -27,6 +27,7 @@ def html(filename):
             html_content = file.read()
             send(html_content)
             webbrowser.open_new_tab(filename)
+            print(html_content)
     except FileNotFoundError:
         print("File not found!")
 
@@ -36,6 +37,6 @@ while x == 1:
     send(input("Masukan pesan: "))
     x = int(input("1 untuk terus mengirim pesan: "))
 
-html("portofoliocci.html")
+y = str(input("Masukan nama file html: "))
+html(y)
 send(DISCONNECT_MESSAGE)
-
