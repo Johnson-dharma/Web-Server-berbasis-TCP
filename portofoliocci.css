@@ -1,0 +1,90 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 20px auto;
+    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLksS45FdP-S8_-_4x3VpwfZ944nqhkNCK8z4hidE9QldvHdbZ4HzyQ6k5N3j321WeFkTXeP7Jeb6EOK2dVPCFWIwCxov5uhR9C6zgMkujraJwnUVczYWA7kVS37cHqNYubjmvaS600aZ_3a5Jl7maKCLG5cSVXak5nxr6V82iXtBgbiPiZwSFJODRgg/s1600/Desain%20tanpa%20judul.png);
+    background-size: 1000px;
+    color: #f5f6f7;
+    font-family: sans-serif;
+    font-size: 16px;
+  }
+  
+  h1 {
+    margin: 1em auto;
+    text-align: center;
+    text-shadow: 0 0 7px orange;
+  }
+  h2{
+       margin: 1em auto;
+    text-align: center;
+    text-shadow: 0 0 7px Blue;
+  }
+  
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
+  }
+  
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  input,
+  textarea,
+  select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+  
+  input, textarea {
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+    box-shadow: 0 0 10px 0 hsl(223, 90%, 60%);
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: white;
+    min-width: 300px;
+  }
+  
+  input[type="file"] {
+    padding: 1px 2px;
+  }
+  
+  textarea{
+    background-color: black;
+  }
+  
+  .all{
+    border:5px double;
+    border-top-color: rgb(122, 74, 14);
+    border-bottom-color: rgb(122, 74, 14);
+    border-right-color: rgb(90, 74, 122);
+    border-left-color: rgb(90, 74, 122);
+    box-shadow: 0 0 50px 0 rgba(83, 14, 14, 0.8);
+    width: 400px;
+    margin: 20px auto;
+    padding: 0 50px;
+  }
